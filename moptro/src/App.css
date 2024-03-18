@@ -1,0 +1,232 @@
+
+
+*,body{
+  margin: 0;
+  padding: 0;
+}
+.app-body{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.form{
+  height: 350px;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  /* background: rgb(188, 174, 174); */
+}
+
+form{
+  width: 100%;
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.maincontainer{
+  background-color: black;
+  overflow-y: scroll;
+}
+
+.maincontainer::-webkit-scrollbar{
+  display: none;
+}
+.container1 input{
+  width: 65%;
+  padding: 20px;
+  border: none;
+  background: none;
+  /* border:  solid 1px green; */
+  border-radius: 25px;
+  /* box-shadow: rgba(250, 246, 246, 0.24) 0px 3px 8px; */
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  outline: none;
+  color: white;
+  font-size: 17px;
+  margin-right: 10px;
+}
+
+.container i{
+  color: gainsboro;
+  font-size: 19px;
+}
+form input {
+  width: 80%;
+  padding: 20px;
+  border: none;
+  background: none;
+  /* border:  solid 1px green; */
+  border-radius: 25px;
+  /* box-shadow: rgba(250, 246, 246, 0.24) 0px 3px 8px; */
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  outline: none;
+  color: white;
+  font-size: 17px;
+
+}
+
+
+form button{
+  width: 88%;
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+  background: green;
+  color:white;
+  border-radius: 25px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+overflow-y: scroll;
+  background: black;
+}
+
+.navbar{
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar img{
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+.mainlogo img{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.head1{
+  width: 80%;
+  background-color: rgb(59, 62, 65);
+  border-radius: 30px;
+  padding: 18px;
+  color: rgb(212, 219, 223);
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.productivity{
+  width: 90%;
+  background-color: rgb(59, 62, 65);
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 8px;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.load1{
+width: 4%;
+height: 15px;
+border-radius: 14px;
+background-color: green;
+}
+.load2{
+width: 67%;
+height: 15px;
+border-radius: 14px;
+background-color: green;
+}
+.load3{
+width: 90%;
+height: 15px;
+border-radius: 14px;
+background-color: green;
+}
+.load4{
+width: 75%;
+height: 15px;
+border-radius: 14px;
+background-color: green;
+}
+.load5{
+width: 69%;
+height: 15px;
+border-radius: 14px;
+background-color: green;
+}
+.load6{
+width: 84%;
+height: 15px;
+border-radius: 14px;
+background-color: green;
+}
+.load7{
+width: 80%;
+height: 15px;
+border-radius: 14px;
+background-color: green;
+border: solid 1px rgb(0, 225, 0);
+}
+
+.each{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+ .profilesdata{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  padding: 5px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+ }
+body{
+  background-color: black;
+}
+.profile{
+  width: 70%;
+  height: 150px;
+  background-color: gray;
+  border-radius: 8px;
+  box-shadow: rgba(232, 230, 230, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  box-shadow: rgba(228, 224, 224, 0.4) 0px 30px 90px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.Toastify__toast {
+  background-color: white;
+  color: black;
+}
+
+/* Customize toast close button color */
+.Toastify__close-button {
+  color: black;
+}
+
+/* Customize toast progress bar color */
+.Toastify__progress-bar {
+  background-color: black;
+}
