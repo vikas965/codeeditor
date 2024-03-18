@@ -14,7 +14,7 @@ function Editor() {
     e.preventDefault();
     console.log("Code Language:", codeLanguage);
     try {
-      await axios.post('http://localhost:3001/submit', {
+      await axios.post('https://codeeditor-1-kqoo.onrender.com/submit', {
         username,
         codeLanguage,
         stdin,
