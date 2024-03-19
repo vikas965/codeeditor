@@ -9,7 +9,7 @@ const port = 3001;
 const connection = mysql.createConnection({
    host: '103.21.58.5',
   user: 'stepcone2024',
-  password: 'Curie@1867',
+  password: '',   // i removed the password for security purpose beacuase i am using my college server , if wants contact me 9652021978 
   database: 'stepcone'
 });
 
